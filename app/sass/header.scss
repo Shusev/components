@@ -1,0 +1,46 @@
+@mixin ptSansCaptBold ($size, $color) {
+  font-family: "PT Sans Caption Bold";
+  font-size: $size;
+  color: $color;
+}
+@mixin ptSansReg ($size, $color) {
+  font-family: "PT Sans Regular";
+  font-size: $size;
+  color: $color;
+}
+.header {
+  margin-top: 21px;
+  min-height: 43px;
+}
+.menu {
+  float: left;
+  list-style-type: none;
+  @include ptSansCaptBold(14px, #666666);
+  text-transform: uppercase;
+  line-height: 18px;
+  min-height: 36px;
+  margin-top: 10px;
+  .menu_li {
+    float: left;
+    margin-right: 46px;
+    &:last-child {
+      margin-right: 120px;
+    }
+  }
+}
+.telephones {
+  float: left;
+  line-height: 23px;
+  margin-right: 23px;
+  @include ptSansCaptBold(14px, black);
+}
+.call_btn {
+  float: left;
+  width: 174px;
+  min-height: 46px;
+  text-align: center;
+  @include ptSansReg(18px, white);
+  background-color: #0483f3;
+  line-height: 46px;
+  text-decoration: none;
+}

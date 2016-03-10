@@ -1,0 +1,45 @@
+.header {
+  margin-top: 21px;
+  min-height: 43px;
+}
+
+.menu {
+  float: left;
+  list-style-type: none;
+  font-family: "PT Sans Caption Bold";
+  font-size: 14px;
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 18px;
+  min-height: 36px;
+  margin-top: 10px;
+}
+.menu .menu_li {
+  float: left;
+  margin-right: 46px;
+}
+.menu .menu_li:last-child {
+  margin-right: 120px;
+}
+
+.telephones {
+  float: left;
+  line-height: 23px;
+  margin-right: 23px;
+  font-family: "PT Sans Caption Bold";
+  font-size: 14px;
+  color: black;
+}
+
+.call_btn {
+  float: left;
+  width: 174px;
+  min-height: 46px;
+  text-align: center;
+  font-family: "PT Sans Regular";
+  font-size: 18px;
+  color: white;
+  background-color: #0483f3;
+  line-height: 46px;
+  text-decoration: none;
+}
